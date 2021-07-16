@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang ='en'>
+<html>
+<head>
+    <title>CSS CheatSheet</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Prism ( decided it was overkill) -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism-okaidia.min.css"> -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!-- GitHub icon from iconify.design -->
+        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</head>
+<body>
+    <nav id='fixed-nav'>
+        <p><a href="https://github.com/github524/cssSelectors"><span class="iconify" data-icon="logos-github-icon" data-inline="false"></span></a></p>
+    
+    </nav>
+    <div id="container">
+   <main>
+   <header>
+       <h1>
+           CheatSheet
+       </h1>
+       <h2>CSS Selectors </h2>
+   </header>
+   <table class="table table-striped table-hover">
+    <thead>
+      <tr>
+        <th>CSS Code</th>
+        <th>Explanation</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+
+          <code>p a  </code>
+        </td>
+
+        <td>Style the child (a) of p</td>
+      </tr>
+      <!-- row -->
+      <tr>
+        <td>
+
+          <code>p, a  </code>
+        </td>
+
+        <td>Style p and a</td>
+      </tr>
+      <!-- row -->
+      <tr>
+        <td>
+
+          <code>p > a  </code>
+        </td>
+
+        <td>Style direct descendent of p</td>
+      </tr>
+      <!-- row -->
+      <!-- row -->
+      <tr>
+        <td>
+
+          <code>p + a  </code>
+        </td>
+
+        <td>Style the a next to p (just after)</td>
+      </tr>
+      <!-- row -->
+      <!-- row -->
+      <tr>
+        <td>
+
+          <code>p ~ a  </code>
+        </td>
+
+        <td>Selects ALL a's after the p</td>
+      </tr>
+      <!-- row -->
+      <!-- row -->
+      <tr>
+        <td>
+
+          <code>::before / ::after </code>
+        </td>
+
+        <td>Add content from CSS before or after element</td>
+      </tr>
+      <!-- row -->
+      <!-- row -->
+      <tr>
+        <td>
+
+          <code>a:nth-child(even) </code>
+        </td>
+
+        <td>Select every other a</td>
+      </tr>
+      <!-- row -->
+      <!-- row -->
+      <tr>
+        <td>
+
+          <code>a:first-child </code>
+        </td>
+
+        <td>Select 1st element inside a</td>
+      </tr>
+      <!-- row -->
+      <tr>
+        <td>
+
+          <code>a[href*="#"] </code>
+        </td>
+
+        <td>Select all a elements that have a # in their href</td>
+      </tr>
+      <!-- row -->
+      <tr>
+        <td>
+
+          <code>a:not(.name) </code>
+        </td>
+
+        <td>Select all a that do not have class of "name"</td>
+      </tr>
+      <!-- row -->
+      <tr>
+        <td>
+
+          <code>h1.large</code>
+        </td>
+
+        <td>Select all h1 that have a class of "large"</td>
+      </tr>
+      <!-- row -->
+
+    </tbody>
+  </table>
+</main>
+</div>
+
+
+
+
+
+<!-- Bootstrap -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Prism.js scripts -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-css.min.js"></script> -->
+    </body>
+    </html>
